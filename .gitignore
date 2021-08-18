@@ -1,0 +1,11 @@
+#files
+*.fits
+*.mp4
+*.png
+*.csv
+*.txt
+#old code
+felixamalia/
+
+#rubbish
+__pycache__/
