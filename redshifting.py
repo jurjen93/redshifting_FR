@@ -24,8 +24,6 @@ class RedShifting:
         self.hdul = fits.open(fitsfile)[0]
         self.redshift = redshift
         self.cosmo = FlatLambdaCDM(H0=70 * u.km / u.s / u.Mpc, Tcmb0=2.725 * u.K, Om0=0.3)
-
-        # self.fluxlim = Ftheta_to_Lpc(75e-5, 0.8, self.beam)
         self.fluxlim = 75e-5
         self.FRI = FRI  # True or False
         self.poly_list = None
